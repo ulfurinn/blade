@@ -49,7 +49,7 @@ Create a file in `~/Library/LaunchAgents/net.ulfurinn.blade.plist` containing th
       <key>DATABASE_URL</key>
       <string><!-- postgres://user:pass@host/database - same as you used before --></string>
       <key>PORT</key>
-      <string><!-- the port to listen on -->></string>
+      <string><!-- the port to listen on --></string>
       <key>VAULT_ROOT</key>
       <string><!-- absolute path to Obsidian vault --></string>
       <key>SECRET_KEY_BASE</key>
