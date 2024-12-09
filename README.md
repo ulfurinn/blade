@@ -15,11 +15,11 @@ It runs as its own server outside of Obsidian.
 
 This has been tested with [Ollama](https://ollama.com/download). After installing and starting the server, run `ollama pull nomic-embed-text`.
 
-### PgVector
+### pgvector
 
 Install and set up PostgreSQL as appropriate for your platform.
 
-Install [PgVector](https://github.com/pgvector/pgvector?.tab=readme-ov-file#installation).
+Install [pgvector](https://github.com/pgvector/pgvector?.tab=readme-ov-file#installation).
 
 Create a database to hold your data. Check that `CREATE EXTENSION vector` works.
 
