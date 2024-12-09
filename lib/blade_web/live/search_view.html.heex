@@ -1,0 +1,10 @@
+<.form :let={f} for={@search} phx-change="search">
+  <.input field={f[:term]} autocomplete="off" />
+</.form>
+
+<div
+  :for={result <- @results}
+  class="mt-1 p-2 text-sm border rounded-md bg-zinc-50 text-zinc-600 border-zinc-200 "
+>
+  <a href={"obsidian://open?vault=#{@name}&file=#{URI.encode(result)}"}>{result}</a>
+</div>
