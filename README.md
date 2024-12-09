@@ -28,7 +28,7 @@ Create a database to hold your data. Check that `CREATE EXTENSION vector` works.
 ```sh
 MIX_ENV=prod \
   DATABASE_URL=postgres://user:pass@host/database \
-  mix do dist
+  mix dist
 ```
 
 This will create a self-contained build in `$(pwd)/_build/prod/rel/blade`. Make note of this path for the next steps, or move it to a location of your choice.
